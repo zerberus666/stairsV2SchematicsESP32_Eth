@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c74cf9f2-0af5-4a28-b0b6-05ce22add148")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 46.736 74.93)
+		(size 49.53 39.116)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f64f479-1038-4785-8583-3b16ea02e77a")
+		(property "Sheetname" "MCU"
+			(at 46.736 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 46.736 114.6306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.606 74.676)
+		(size 45.212 38.862)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be68e9b5-631c-4c19-a6e9-1b298e897933")
+		(property "Sheetname" "Ethernet"
+			(at 149.606 73.9644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 149.606 114.1226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
