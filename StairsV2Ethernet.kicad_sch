@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 147.828 75.184)
+		(size 46.736 38.862)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43b24ed5-a570-4e27-b00b-6038ea0a11b6")
+		(property "Sheetname" "Power"
+			(at 147.828 74.4724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 147.828 114.6306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 46.736 74.93)
 		(size 49.53 39.116)
 		(exclude_from_sim no)
@@ -48,7 +90,49 @@
 		)
 	)
 	(sheet
-		(at 149.606 74.676)
+		(at 99.568 117.856)
+		(size 45.212 39.116)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be29776e-5772-4862-931b-10d4880b16fd")
+		(property "Sheetname" "LED Chain"
+			(at 99.568 117.1444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDChain.kicad_sch"
+			(at 99.568 157.5566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.568 75.184)
 		(size 45.212 38.862)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +148,7 @@
 		)
 		(uuid "be68e9b5-631c-4c19-a6e9-1b298e897933")
 		(property "Sheetname" "Ethernet"
-			(at 149.606 73.9644 0)
+			(at 99.568 74.4724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 149.606 114.1226 0)
+			(at 99.568 114.6306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +169,48 @@
 			(project "StairsV2Ethernet"
 				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.736 117.856)
+		(size 49.53 39.116)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7dd127a-f715-4acb-b185-384c603cf53e")
+		(property "Sheetname" "ADC"
+			(at 46.736 117.1444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 46.736 157.5566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148"
+					(page "4")
 				)
 			)
 		)

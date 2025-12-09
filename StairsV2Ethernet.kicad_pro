@@ -420,6 +420,18 @@
     [
       "be68e9b5-631c-4c19-a6e9-1b298e897933",
       "Ethernet"
+    ],
+    [
+      "e7dd127a-f715-4acb-b185-384c603cf53e",
+      "ADC"
+    ],
+    [
+      "be29776e-5772-4862-931b-10d4880b16fd",
+      "LED Chain"
+    ],
+    [
+      "43b24ed5-a570-4e27-b00b-6038ea0a11b6",
+      "Power"
     ]
   ],
   "text_variables": {}

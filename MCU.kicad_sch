@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "10f07dc3-ac78-424e-9528-85954e2f5b96")
+	(uuid "163b3340-9c4e-47bb-9845-fdf68a5cd787")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
@@ -2771,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 106.68) (xy 176.53 106.68)
+			(xy 161.29 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3041,6 +3041,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 105.41) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8be7ce7-498d-4161-9e3e-5b12130f8f49")
+	)
+	(wire
+		(pts
 			(xy 118.11 78.74) (xy 130.81 78.74)
 		)
 		(stroke
@@ -3071,13 +3081,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 109.22) (xy 176.53 109.22)
+			(xy 161.29 109.22) (xy 203.2 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5f9f4fb-f8df-484b-ba9b-80fc6129415c")
+	)
+	(wire
+		(pts
+			(xy 194.31 105.41) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7535ea8-5efa-4534-8915-b77f810b7727")
 	)
 	(wire
 		(pts
@@ -4526,6 +4546,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58fc8881-dfcc-4b75-b4b4-f30f1d792e81")
+		(property "Reference" "#PWR0109"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3bda708-5567-4ad1-b881-8b70f10cf1fa")
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148/9f64f479-1038-4785-8583-3b16ea02e77a"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 57.15 0)
 		(unit 1)
@@ -5406,6 +5492,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 194.31 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a1dd21-08ed-42a9-8ba6-e7b4f4b3ba1e")
+		(property "Reference" "R26"
+			(at 196.85 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 196.85 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 192.532 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "570c2c8e-4db8-4401-a96c-b8e965298645")
+		)
+		(pin "1"
+			(uuid "466969ed-47e1-42ea-ae43-8f09a87c4727")
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148/9f64f479-1038-4785-8583-3b16ea02e77a"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 68.58 52.07 0)
 		(unit 1)
@@ -5533,6 +5689,142 @@
 			(project "StairsV2Ethernet"
 				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148/9f64f479-1038-4785-8583-3b16ea02e77a"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e3802d-7577-4c0d-acd5-5a1a913055fd")
+		(property "Reference" "R54"
+			(at 205.74 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 201.422 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3e27a03-ed3a-4e63-a32c-2b44e8045857")
+		)
+		(pin "1"
+			(uuid "a895bf82-383d-4e68-9b52-6d60b8868ed3")
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148/9f64f479-1038-4785-8583-3b16ea02e77a"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 194.31 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c929e379-84cb-41b9-bb85-c1434ed501bd")
+		(property "Reference" "#PWR0108"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd94a07-031d-4a63-90a0-c82072efc15f")
+		)
+		(instances
+			(project "StairsV2Ethernet"
+				(path "/c74cf9f2-0af5-4a28-b0b6-05ce22add148/9f64f479-1038-4785-8583-3b16ea02e77a"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
