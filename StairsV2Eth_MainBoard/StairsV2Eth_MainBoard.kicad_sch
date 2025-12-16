@@ -1,0 +1,342 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b7011f24-a95f-4b3f-a6cc-ae92e5977d54")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 101.6 20.32) (xy 125.73 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01dd8033-b616-4c09-893f-6d81a7943f95")
+	)
+	(bus
+		(pts
+			(xy 29.21 90.17) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064ca4c4-b4ee-4a41-bab8-43264905fc24")
+	)
+	(bus
+		(pts
+			(xy 90.17 90.17) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12412414-7b68-47f9-9e8f-6d1cdc9ee18c")
+	)
+	(bus
+		(pts
+			(xy 101.6 22.86) (xy 125.73 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a464095-3b4d-459e-ba50-ab44b21abcad")
+	)
+	(bus
+		(pts
+			(xy 90.17 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baeedc2b-fde4-471c-b83b-c7823f390483")
+	)
+	(bus
+		(pts
+			(xy 90.17 52.07) (xy 109.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e445a17d-9104-4ef7-ac1c-f2c44a91430c")
+	)
+	(label "LED{Data Ena[1..8]}"
+		(at 101.6 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e3d2e9c-a84f-4cf6-98c9-a6244b5c56e0")
+	)
+	(label "LED{Data Ena[1..8]}"
+		(at 90.17 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "433728af-c57f-4e1d-a766-0bb489c26c8f")
+	)
+	(label "ADC{RDY SCL SDA}"
+		(at 101.6 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a7263fd-bacb-47f3-9fb6-0194cee1c79a")
+	)
+	(label "ADC{RDY SCL SDA}"
+		(at 90.17 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c159b7c4-e502-4694-9efb-712f998ed14a")
+	)
+	(label "LED{Data Ena[1..8]}"
+		(at 29.21 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c60269cd-52a6-4c20-b71e-16f6152f69c8")
+	)
+	(label "ADC{RDY SCL SDA}"
+		(at 90.17 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9ca8bee-1abf-4236-aebd-edf1137ada15")
+	)
+	(sheet
+		(at 109.22 81.28)
+		(size 40.64 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "203c8886-ee16-4201-9093-4ac34a2e1788")
+		(property "Sheetname" "Interconnect"
+			(at 109.22 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interconnect.kicad_sch"
+			(at 109.22 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC{RDY SCL SDA}" input
+			(at 109.22 90.17 180)
+			(uuid "7dbb1155-73b0-4b99-bb55-d15c75ae8c2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED{Data Ena[1..8]}" input
+			(at 109.22 101.6 180)
+			(uuid "8c186f62-7305-4427-9eaa-12404cea2f71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MainBoard"
+				(path "/b7011f24-a95f-4b3f-a6cc-ae92e5977d54"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 35.56)
+		(size 40.64 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c6e6eac-ba65-46b4-9f6f-5d25ee333123")
+		(property "Sheetname" "Power"
+			(at 48.26 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 48.26 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MainBoard"
+				(path "/b7011f24-a95f-4b3f-a6cc-ae92e5977d54"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 81.28)
+		(size 40.64 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49e57555-eb61-4b3a-9623-3a6a5eb29c3f")
+		(property "Sheetname" "LED Chain"
+			(at 48.26 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_Chain.kicad_sch"
+			(at 48.26 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED{Data Ena[1..8]}" input
+			(at 48.26 90.17 180)
+			(uuid "f27454a2-8f75-450f-8957-6d2dc8ffda5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MainBoard"
+				(path "/b7011f24-a95f-4b3f-a6cc-ae92e5977d54"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 35.56)
+		(size 40.64 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f321081a-2448-424c-932a-86641cd019fd")
+		(property "Sheetname" "ADC"
+			(at 109.22 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 109.22 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC{RDY SCL SDA}" input
+			(at 109.22 52.07 180)
+			(uuid "694d24a3-9d9c-4762-a4c6-754dff5d61ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MainBoard"
+				(path "/b7011f24-a95f-4b3f-a6cc-ae92e5977d54"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

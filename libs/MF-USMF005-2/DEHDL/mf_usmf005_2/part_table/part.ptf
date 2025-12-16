@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF_USMF005_2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "MF-USMF005-2" (!) = "", "FUSC3226X110N", "Fuses Chip", "652-MF-USMF005-2", "https://www.mouser.co.uk/ProductDetail/Bourns/MF-USMF005-2?qs=k5V78Jg%2Feq5dOnJgyb2oFg%3D%3D", "MF-USMF005-2", "https://www.arrow.com/en/products/mf-usmf005-2/bourns?utm_currency=USD&region=nac", "Fuse, PTC, Resettable, SMD, 1210, 50mA Bourns 0.05A Surface Mount Resettable Fuse, 30 V", "https://componentsearchengine.com/Datasheets/2/MF-USMF005-2.pdf", "1.1 mm"
+END_PART
+
+END.

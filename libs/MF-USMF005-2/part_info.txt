@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=MF-USMF005-2
+PartCategory=Fuse
+PackageCategory=Fuses Chip
+PinCount=2
+Version=3.1
+Released=2017-07-10 18:43:13
+Downloaded=2025-12-11 11:37:57
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF-USMF005-2
+D Fuse, PTC, Resettable, SMD, 1210, 50mA Bourns 0.05A Surface Mount Resettable Fuse, 30 V
+K
+F https://componentsearchengine.com/Datasheets/2/MF-USMF005-2.pdf
+$ENDCMP
+#
+#End Doc Library

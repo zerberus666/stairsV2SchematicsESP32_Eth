@@ -1,0 +1,97 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MF-USMF005-2"
+   (description "Fuse, PTC, Resettable, SMD, 1210, 50mA Bourns 0.05A Surface Mount Resettable Fuse, 30 V")
+   (family "FUS")
+   (package "FUSC3226X110N")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/MF-USMF005-2.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "MF-USMF005-2")
+   (attribute "Mouser Part Number" "652-MF-USMF005-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-USMF005-2?qs=k5V78Jg%2Feq5dOnJgyb2oFg%3D%3D")
+   (attribute "Arrow Part Number" "MF-USMF005-2")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/mf-usmf005-2/bourns?utm_currency=USD&region=nac")
+   (gate
+    (symbol "MF-USMF005-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MF-USMF005-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 500 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FUSC3226X110N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.325 1.655)
+      (pt 2.325 1.655)
+      (pt 2.325 -1.655)
+      (pt -2.325 -1.655)
+      (pt -2.325 1.655))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.608 1.288)
+      (pt 1.608 1.288)
+      (pt 1.608 -1.288)
+      (pt -1.608 -1.288)
+      (pt -1.608 1.288))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1.188)
+      (pt 0 -1.188))))
+   (leg 1 (pt -1.635 0) (padstack 0))
+   (leg 2 (pt 1.635 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.88 2.81 0 0 90))
+   )
+   (model "MF-USMF005-2.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

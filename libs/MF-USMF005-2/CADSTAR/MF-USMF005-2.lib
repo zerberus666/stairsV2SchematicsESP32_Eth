@@ -1,0 +1,18 @@
+.MF-USMF005-2 :1 ;Fuse, PTC, Resettable, SMD, 1210, 50mA Bourns 0.05A Surface Mount Resettable Fuse, 30 V
+FUSC3226X110N
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF-USMF005-2
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (MF-USMF005-2)
+~!Mouser Part Number (652-MF-USMF005-2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/MF-USMF005-2?qs=k5V78Jg%2Feq5dOnJgyb2oFg%3D%3D)
+~!Arrow Part Number (MF-USMF005-2)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mf-usmf005-2/bourns?utm_currency=USD&region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/MF-USMF005-2.pdf)
+~!Height (1.1mm)
+~!3D_Model (MF-USMF005-2)
+MF-USMF005-2
+1.1!U 2.1!U 
