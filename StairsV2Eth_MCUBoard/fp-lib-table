@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProjLibrary")(type "KiCad")(uri "C:/Users/farid/Documents/KiCad/8.0/projects/AdressLEDStair_V2/Libs/ProjLibrary.pretty")(options "")(descr ""))
+)

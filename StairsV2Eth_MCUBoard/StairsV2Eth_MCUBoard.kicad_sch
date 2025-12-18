@@ -1,0 +1,380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bd557fa5-9750-4f23-a70d-64eb23cad01a")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 74.93 24.13) (xy 115.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07080f4d-8b35-4639-bba1-a3dead207920")
+	)
+	(bus
+		(pts
+			(xy 16.51 115.57) (xy 53.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b31818-c40b-4cda-bc1a-3997c2e6c244")
+	)
+	(bus
+		(pts
+			(xy 16.51 53.34) (xy 53.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7215b699-6c6a-4486-b81f-ba0ff0f47ba4")
+	)
+	(bus
+		(pts
+			(xy 74.93 29.21) (xy 115.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747047d8-5418-493a-8796-5b852cfe8306")
+	)
+	(bus
+		(pts
+			(xy 74.93 19.05) (xy 115.57 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dad9509-f88b-414b-a8fa-987e5e7d5847")
+	)
+	(bus
+		(pts
+			(xy 123.19 58.42) (xy 146.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d940cc5-f2e5-4e5c-9960-060ca6e3c0ef")
+	)
+	(bus
+		(pts
+			(xy 16.51 129.54) (xy 53.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eb325f-c305-4cce-89fa-e38cc7b7af94")
+	)
+	(bus
+		(pts
+			(xy 123.19 64.77) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbe5845-091b-4a5c-8995-bcce2b8277bd")
+	)
+	(bus
+		(pts
+			(xy 16.51 123.19) (xy 53.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f145bd4e-d1a4-48e6-9ab0-42f0e0830ba3")
+	)
+	(label "ADC{RDY SCL SDA}"
+		(at 123.19 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15b4931b-5721-4e1e-b9b5-0674ca47730c")
+	)
+	(label "Eth{~{SCS} SCLK MOSI MISO ~{INT} ~{RST}}"
+		(at 76.2 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18af0d93-5707-4004-a9f9-5b0fb72e95fe")
+	)
+	(label "LED{Data Ena[1..8]}"
+		(at 76.2 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42569d9c-ce0d-450b-923d-fb96ac16b056")
+	)
+	(label "LED{Data Ena[1..8]}"
+		(at 16.51 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87b68e43-b573-4a22-acb6-910866e845f7")
+	)
+	(label "ADC{RDY SCL SDA}"
+		(at 16.51 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa1286f1-9db2-41c0-8e80-5c48dcccd131")
+	)
+	(label "LED{Data Ena[1..8]}"
+		(at 123.19 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b272dde3-0a43-479a-b783-e4c63945c82f")
+	)
+	(label "Eth{~{SCS} SCLK MOSI MISO ~{INT} ~{RST}}"
+		(at 16.51 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea19e992-64dd-430f-9d14-2251224ff5bd")
+	)
+	(label "Eth{~{SCS} SCLK MOSI MISO ~{INT} ~{RST}}"
+		(at 16.51 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0aaeb81-084d-47fe-abec-fd719c86062c")
+	)
+	(label "ADC{RDY SCL SDA}"
+		(at 76.2 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6b86bef-04a5-405a-91b8-d81f74d8f447")
+	)
+	(sheet
+		(at 146.05 44.45)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de67b45f-ca8d-4034-93ea-51716c7758e9")
+		(property "Sheetname" "Interconnect"
+			(at 146.05 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interconnect.kicad_sch"
+			(at 146.05 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC{RDY SCL SDA}" input
+			(at 146.05 58.42 180)
+			(uuid "ef545a58-7bfd-48cd-9361-bf47e63020df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED{Data Ena[1..8]}" input
+			(at 146.05 64.77 180)
+			(uuid "45d80035-c8c6-42af-bcb1-0b47191ef57c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MCUBoard"
+				(path "/bd557fa5-9750-4f23-a70d-64eb23cad01a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 106.68)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e84b093d-ee76-4a19-9258-f9d78314a678")
+		(property "Sheetname" "MCU"
+			(at 53.34 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 53.34 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC{RDY SCL SDA}" input
+			(at 53.34 115.57 180)
+			(uuid "d8d199fb-a28c-4aa1-aebb-cb40c146139b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED{ Data Ena[1..8] }" input
+			(at 53.34 123.19 180)
+			(uuid "cee2767f-bd0a-4f36-9a46-bc1a4765ad34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Eth{~{SCS} SCLK MOSI MISO ~{INT} ~{RST}}" input
+			(at 53.34 129.54 180)
+			(uuid "6d7ce050-1738-462c-b562-c3d0da3b8f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MCUBoard"
+				(path "/bd557fa5-9750-4f23-a70d-64eb23cad01a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 44.45)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1d2f33a-e2bc-4a1e-9b7c-ec3ebbb95a84")
+		(property "Sheetname" "Ethernet"
+			(at 53.34 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 53.34 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Eth{~{SCS} SCLK MOSI MISO ~{INT} ~{RST}}" input
+			(at 53.34 53.34 180)
+			(uuid "f73c7304-4046-44a7-9c61-5999dce6c67a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "StairsV2Eth_MCUBoard"
+				(path "/bd557fa5-9750-4f23-a70d-64eb23cad01a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
